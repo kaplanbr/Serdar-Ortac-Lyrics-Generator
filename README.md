@@ -6,7 +6,7 @@ Example usage:
 
 ```
 import os
-os.chdir(r"..\serdarortac") #file containing lyrics<\br>
+os.chdir(r"..\serdarortac") #file containing lyrics
 from serdarortac import *
 idir = os.path.join(os.getcwd(),"lyrics")
 ortac_fwprobdict, ortac_bwprobdict = readLyrics(idir)

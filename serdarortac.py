@@ -4,10 +4,7 @@ Created on Tue Jul 18 13:44:30 2017
 
 @author: KBK
 """
-import os
-os.chdir("F:\_DATA ANALYSIS, M.Sc\zDersDisi\serdarortac")
-os.getcwd()
-os.listdir(os.path.join(os.getcwd(),"lyrics"))
+
 import random
 from scipy.stats import norm
 import sys
@@ -146,12 +143,11 @@ def levenshteinSimilarity(a,b):
     sim = (max(len(a),len(b))-lev(a,b))/float(max(len(a),len(b)))
     return sim
 
- # In[]
-
-#hatalar
-#art�k vazge� art�k ? 
     
 if __name__ == '__main__':
+    import os
+    os.chdir("..\serdarortac") #directory containing lyrics 
+	
     idir = os.path.join(os.getcwd(),"lyrics")
     ortac_fwprobdict, ortac_bwprobdict = readLyrics(idir)
     

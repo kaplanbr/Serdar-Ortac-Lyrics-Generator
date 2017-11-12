@@ -1,6 +1,6 @@
 # Serdar-Ortac-Lyric-Generator
 
-Markow Chain model for generating Serdar Ortaç lyrics (any lyrics with mechanic rhymes and loose grammar). Levenshtein similarity is used for ryhmes. You can optionally input starting words of lyrics. Model writes 4 lines of lyrics with stochastic rhyme, number of words logic.
+Markow Chain model for generating Serdar Ortaç lyrics (in fact any lyrics with mechanic rhymes and loose grammar). Levenshtein similarity is used for ryhmes. You can optionally input starting words of lyrics. Model writes 4 lines of lyrics with stochastic rhyme, number of words logic.
 
 Example usage:
 

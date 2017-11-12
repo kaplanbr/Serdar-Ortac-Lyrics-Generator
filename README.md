@@ -15,9 +15,7 @@ print(makeSerdarOrtac("", ortac_fwprobdict, ortac_bwprobdict))
 ```
 Here's your Serdar Ortac lyrics:
 
- sıkı dur→→
- yaşanan hayal kurup dualar
- 
- uyanır dururum yakalar
- 
- eriyor gittin gideli güvenim 
+ sıkı dur  
+ yaşanan hayal kurup dualar  
+ uyanır dururum yakalar  
+ eriyor gittin gideli güvenim

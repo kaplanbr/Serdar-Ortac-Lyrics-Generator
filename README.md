@@ -1,6 +1,6 @@
 # Serdar-Ortac-Lyric-Generator
 
-Markow Chain model for generating Serdar Ortaç lyrics. Levenshtein similarity is used for ryhmes. Model writes 4 lines of lyrics with stochastic rhyme, number of words logic.
+Markow Chain model for generating Serdar Ortaç lyrics. Levenshtein similarity is used for ryhmes. You can optionally input starting words of lyrics. Model writes 4 lines of lyrics with stochastic rhyme, number of words logic.
 
 Example usage:
 
@@ -15,8 +15,7 @@ print(makeSerdarOrtac("", ortac_fwprobdict, ortac_bwprobdict))
 ```
 Here's your Serdar Ortac lyrics:
 
- sıkı dur
- 
+ sıkı dur→→
  yaşanan hayal kurup dualar
  
  uyanır dururum yakalar

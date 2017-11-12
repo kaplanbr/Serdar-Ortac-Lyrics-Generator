@@ -4,7 +4,7 @@ Markow Chain model for generating Serdar Ortaç lyrics. Levenshtein similarity i
 
 Example usage:
 
-"import os"
+'import os'
 "os.chdir(r"..\serdarortac") #file containing lyrics"
 "from serdarortac import *"
 "idir = os.path.join(os.getcwd(),"lyrics")"

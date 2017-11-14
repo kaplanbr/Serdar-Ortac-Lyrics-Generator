@@ -10,7 +10,7 @@ from editdistance import eval as lev
 
 def readLyrics(idir,fw_freqdict={},bw_freqdict={}):
     """
-    returns a dict in this for:
+    returns a dict in following form:
     word : {successor1: probability, successor2:probability}
     """
     files = os.listdir(idir)
